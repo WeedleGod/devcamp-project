@@ -1,0 +1,128 @@
+
+
+.header-wrapper {
+    height: 85px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.header-wrapper > .left-column {
+    display: flex;
+    align-items: center;
+}
+
+.header-wrapper > .left-column > .banner-image {
+    display: flex;
+    justify-content: left;
+}
+.header-wrapper > .left-column > .banner-image img {
+    width: 180px;
+    height: 100%;
+    margin-left: -20px;
+    margin-right: 10px;
+}
+
+.header-wrapper > .center-column {
+    font-size: 20px;
+}
+
+.header-wrapper > .center-column > .navlinks {
+    display: flex;
+    align-items: center;
+}
+
+.header-wrapper > .center-column > .navlinks > .nav-link {
+    width: 65px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.header-wrapper > .center-column > .navlinks > .dropdown {
+    padding-left: 80px;
+    position: relative;
+    display: inline-block;
+    color: #A8A8A8;
+}
+
+.header-wrapper > .center-column > .navlinks > .dropdown-icon {
+    padding-left: 10px;
+    color: #A8A8A8;
+}
+
+.header-wrapper > .center-column > .explore {
+    padding-left: 9px;
+    color: #FFD700;
+    font-size: 18px;
+}
+.header-wrapper > .center-column {
+    width: 500px;
+}
+
+.header-wrapper >  .right-column {
+    display: flex;
+    align-items: center;
+    margin-right: -20px;
+}
+
+.header-wrapper > .right-column > .buttons {
+    display: flex;
+    align-items: center;
+}
+
+.header-wrapper > .right-column > .buttons > .create-button {
+    padding: 15px;
+}
+
+.header-wrapper > .right-column > .buttons > .create-button > .btn {
+    background-color: 	#585858;
+    color: white;
+    font-weight: 900;
+    font-size: 20px;
+    padding: 10px 25px;
+    border-radius: 8px;
+    border-color: 	#585858;
+    height: 63px;
+}
+
+.down-icon {
+    color: #4bce79;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.header-wrapper > .right-column > .buttons > .log-in-button > .btn {
+    background-color: 	#585858;
+    color: white;
+    font-weight: 900;
+    font-size: 20px;
+    padding: 10px 25px;
+    border-radius: 8px;
+    border-color: 	#585858;
+    height: 63px;
+    margin-left:10px;
+}
+
+.header-wrapper > .right-column > .buttons > .sign-up-button > .btn {
+    background-color: 	#585858;
+    margin-left: 15px;
+    color: white;
+    font-weight: 900;
+    font-size: 20px;
+    padding: 10px 25px;
+    border-radius: 8px;
+    border-color: 	#585858;
+    height: 63px;
+}
+
+.header-wrapper > .right-column > .buttons > .icon {
+    display: flex;
+    color: #A8A8A8;
+    font-size: 30px;
+    padding: 15px;
+    padding-right: 20px;
+}
